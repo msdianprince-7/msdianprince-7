@@ -54,7 +54,9 @@ I'm a **Software Developer at AGSuite Technologies** with 2+ years of building p
     <td colspan="2" valign="top">
       <img src="https://img.shields.io/badge/in_review-1f883d?style=flat-square&logo=github&logoColor=white" alt="in review" />
       <b><a href="https://github.com/langgenius/dify">langgenius/dify</a></b><br />
-      <a href="https://github.com/langgenius/dify/pull/41683">#41683</a> · Automatic metadata filtering works for time-typed fields in RAG
+      <a href="https://github.com/langgenius/dify/pull/41683">#41683</a> · Automatic metadata filtering works for time-typed fields in RAG<br />
+      <a href="https://github.com/langgenius/dify/pull/43346">#43346</a> · "Empty" metadata filters match fields saved without a value<br />
+      <a href="https://github.com/langgenius/dify/pull/43352">#43352</a> · Knowledge document search is case-insensitive and treats <code>_</code> / <code>%</code> literally
     </td>
   </tr>
 </table>
