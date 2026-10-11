@@ -1,11 +1,11 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Priyansh%20Nandwana&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20Engineering&descAlignY=58&descSize=18&animation=fadeIn" alt="Priyansh Nandwana" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Priyansh%20Nandwana&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineering%20%E2%80%A2%20LLM%20Agents%20%E2%80%A2%20RAG&descAlignY=58&descSize=18&animation=fadeIn" alt="Priyansh Nandwana" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/msdianprince-7">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Building+full-stack+apps+with+React+%26+Node.js;Shipping+LLM+features+that+hold+up+in+production;LangGraph+%E2%80%A2+RAG+%E2%80%A2+Structured+outputs;Open-source+contributor+to+Dify+%26+Ghost" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=640&lines=Building+multi-agent+systems+with+LangGraph;RAG+%E2%80%A2+Tool+calling+%E2%80%A2+Structured+outputs;Contributor+to+Dify%2C+LiteLLM+%26+Ghost;Shipping+LLM+features+that+hold+up+in+production" alt="Typing intro" />
   </a>
 </p>
 
@@ -20,18 +20,13 @@
 
 ## 👨‍💻 About me
 
-<img align="right" width="340" src="https://github-stats-extended.vercel.app/api/top-langs?username=msdianprince-7&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&card_width=340" alt="Top languages" />
+I'm a **Software Developer at AGSuite Technologies** who builds **LLM-powered products**: agents, RAG pipelines and the production backends they run on.
 
-I'm a **Software Developer at AGSuite Technologies** with 2+ years of building production web apps, from the React UI down to the Postgres schema.
-
-- 🏗️ Built an internal platform used for **2000+ clients**, taking vendor onboarding from **4 minutes to 1**
-- 🔌 Designed and shipped **50+ REST APIs** in Express with validation, pagination and clean error handling
-- 🔐 JWT auth with refresh-token rotation and role-based access
 - 🤖 Automated document extraction with the OpenAI API, cutting manual processing by **60%**
-- 🧠 Currently going deep on **LangGraph, RAG and reliable LLM pipelines**
-- 📍 Udaipur, India · open to backend, full-stack and AI engineering roles
-
-<br clear="right" />
+- 🧠 Build **multi-agent systems in LangGraph**: routing, parallel fan-out, human-in-the-loop, short- and long-term memory
+- 🌍 Ship fixes to **LLM infrastructure** used by thousands of teams: **Dify** (150k+ ⭐) and **LiteLLM** (60k+ ⭐)
+- 🏗️ 2+ years of production engineering: a platform for **2000+ clients** (vendor onboarding **4 min → 1**), **50+ REST APIs**, JWT auth with refresh-token rotation
+- 📍 Udaipur, India · open to **AI engineering, LLM and backend** roles
 
 ---
 
@@ -39,24 +34,35 @@ I'm a **Software Developer at AGSuite Technologies** with 2+ years of building p
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=githubactions&logoColor=white" alt="merged" />
       <b><a href="https://github.com/langgenius/dify">langgenius/dify</a></b> <sub>⭐ 150k+</sub><br />
       <a href="https://github.com/langgenius/dify/pull/41846">#41846</a> · Agent conversations can continue after a tool call is cancelled
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=githubactions&logoColor=white" alt="merged" />
+      <b><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></b> <sub>⭐ 60k+</sub><br />
+      <a href="https://github.com/BerriAI/litellm/pull/38729">#38729</a> · Explicit prompt-cache breakpoints for GPT-5.6+ on Bedrock Mantle
+    </td>
+    <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=githubactions&logoColor=white" alt="merged" />
       <b><a href="https://github.com/TryGhost/Ghost">TryGhost/Ghost</a></b> <sub>⭐ 55k+</sub><br />
       <a href="https://github.com/TryGhost/Ghost/pull/29706">#29706</a> · Header cards keep their layout when imported from HTML
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td colspan="3" valign="top">
       <img src="https://img.shields.io/badge/in_review-1f883d?style=flat-square&logo=github&logoColor=white" alt="in review" />
       <b><a href="https://github.com/langgenius/dify">langgenius/dify</a></b><br />
       <a href="https://github.com/langgenius/dify/pull/41683">#41683</a> · Automatic metadata filtering works for time-typed fields in RAG<br />
       <a href="https://github.com/langgenius/dify/pull/43346">#43346</a> · "Empty" metadata filters match fields saved without a value<br />
       <a href="https://github.com/langgenius/dify/pull/43352">#43352</a> · Knowledge document search is case-insensitive and treats <code>_</code> / <code>%</code> literally
+      <br /><br />
+      <b><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></b><br />
+      <a href="https://github.com/BerriAI/litellm/pull/45767">#45767</a> · Anthropic requests with adaptive thinking no longer fail on rejected sampling params<br />
+      <a href="https://github.com/BerriAI/litellm/pull/38885">#38885</a> · Web-search follow-up calls keep the model's provider prefix<br />
+      <a href="https://github.com/BerriAI/litellm/pull/38879">#38879</a> · Vector store registries no longer share one list<br />
+      <a href="https://github.com/BerriAI/litellm/pull/38504">#38504</a> · Streaming cost is added only when <code>include_usage</code> is requested
     </td>
   </tr>
 </table>
@@ -68,17 +74,30 @@ I'm a **Software Developer at AGSuite Technologies** with 2+ years of building p
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>✍️ <a href="https://github.com/msdianprince-7/blog-writing-agent">Blog Writing Agent</a></h3>
+      <p>Multi-agent system that decides whether a topic needs web research, gathers sources with <b>Tavily</b>, plans a structured outline and writes every section <b>in parallel</b> with cited links. Built on <b>LangGraph</b> <code>Send</code> fan-out, with live progress streaming in the UI.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain" />
+        <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" />
+        <img src="https://img.shields.io/badge/Tavily-5B5BD6?style=flat-square" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+      </p>
+      <a href="https://github.com/msdianprince-7/blog-writing-agent"><b>View code →</b></a>
+    </td>
+    <td width="50%" valign="top">
       <h3>🎯 <a href="https://github.com/msdianprince-7/Ai-Interview-Prep">AI Interview Prep</a></h3>
       <p>Mock interviews with an AI interviewer that asks questions from your resume, follows up on weak answers and scores every answer 1–10. Each turn is a <b>LangGraph</b> graph that grades the answer and plans the next question in parallel.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
         <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain" />
         <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" />
-        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma" />
         <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" />
       </p>
       <a href="https://ai-interview-prep-inky-sigma.vercel.app"><b>Live demo →</b></a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>✉️ <a href="https://github.com/msdianprince-7/replywise-ai">ReplyWise AI</a></h3>
       <p>Paste an email, pick a tone and a language, and get a reply that's ready to send. It's prompted to confirm only what the sender actually said instead of inventing details. Supports 5 languages and 4 tones.</p>
@@ -90,30 +109,16 @@ I'm a **Software Developer at AGSuite Technologies** with 2+ years of building p
       </p>
       <a href="https://replywise-ai-three.vercel.app"><b>Live demo →</b></a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
-      <h3>📈 <a href="https://github.com/msdianprince-7/Stockpulse">StockPulse</a></h3>
-      <p>Real-time analytics for Indian stocks: live charts over WebSockets, portfolio tracking, market news and trend analysis, with Redis caching.</p>
+      <h3>🧠 <a href="https://github.com/msdianprince-7/langgraph-learnings">LangGraph Learnings</a></h3>
+      <p>12 hands-on topics, from parallel and conditional workflows to human-in-the-loop, subgraphs and long-term memory in Postgres. Includes a Streamlit chatbot with streaming, tools, <b>MCP</b>, <b>RAG over PDFs</b> and <b>LangSmith</b> tracing.</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain" />
+        <img src="https://img.shields.io/badge/MCP-000?style=flat-square" />
+        <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square" />
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-        <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio" />
       </p>
-      <a href="https://stockpulse-market7.vercel.app"><b>Live demo →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💰 <a href="https://github.com/msdianprince-7/budgetwise">BudgetWise</a></h3>
-      <p>Personal budget tracker with an AI-generated financial health check based on your actual spending.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" />
-        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" />
-      </p>
-      <a href="https://budgetwise-blue.vercel.app"><b>Live demo →</b></a>
+      <a href="https://github.com/msdianprince-7/langgraph-learnings"><b>View code →</b></a>
     </td>
   </tr>
 </table>
@@ -122,7 +127,9 @@ I'm a **Software Developer at AGSuite Technologies** with 2+ years of building p
 <summary><b>More projects</b></summary>
 <br />
 
-- **[SkillForge](https://github.com/msdianprince-7/SkillsForgeProject)**: track and organize the skills you're learning, with progress tracking. React, Node.js, MongoDB. [Live](https://skills-forge-project.vercel.app)
+- **[BudgetWise](https://github.com/msdianprince-7/budgetwise)**: budget tracker with an AI-generated financial health check based on your actual spending. Next.js, Prisma, Postgres, Groq. [Live](https://budgetwise-blue.vercel.app)
+- **[StockPulse](https://github.com/msdianprince-7/Stockpulse)**: real-time analytics for Indian stocks with live charts over WebSockets and Redis caching. [Live](https://stockpulse-market7.vercel.app)
+- **[SkillForge](https://github.com/msdianprince-7/SkillsForgeProject)**: track and organize the skills you're learning, with progress tracking. [Live](https://skills-forge-project.vercel.app)
 - **[Spendly](https://github.com/msdianprince-7/Spendly)**: expense tracker with auth, date filters and full CRUD. Python.
 - **[Coding](https://github.com/msdianprince-7/Coding)**: DSA practice in C++.
 
@@ -132,18 +139,25 @@ I'm a **Software Developer at AGSuite Technologies** with 2+ years of building p
 
 ## 🛠️ Tech stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,react,nextjs,tailwind,nodejs,express,graphql&perline=10" alt="Languages and frameworks" /><br />
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,prisma,aws,docker,kubernetes,githubactions,vercel&perline=10" alt="Data and infrastructure" />
-</p>
+**AI / LLM**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<p>
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" />
   <img src="https://img.shields.io/badge/RAG-0E7490?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vector_Search-7C3AED?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tavily-5B5BD6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+</p>
+
+**Languages, backend and infrastructure**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,react,nextjs,postgres,redis,docker,aws,githubactions,vercel&perline=12" alt="Languages, backend and infrastructure" />
 </p>
 
 ---
