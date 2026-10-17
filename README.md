@@ -42,7 +42,8 @@ I'm a **Software Developer at AGSuite Technologies** who builds **LLM-powered pr
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=githubactions&logoColor=white" alt="merged" />
       <b><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></b> <sub>⭐ 60k+</sub><br />
-      <a href="https://github.com/BerriAI/litellm/pull/38729">#38729</a> · Explicit prompt-cache breakpoints for GPT-5.6+ on Bedrock Mantle
+      <a href="https://github.com/BerriAI/litellm/pull/38729">#38729</a> · Explicit prompt-cache breakpoints for GPT-5.6+ on Bedrock Mantle<br />
+      <a href="https://github.com/BerriAI/litellm/pull/38879">#38879</a> · Vector store registries no longer share one list
     </td>
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=githubactions&logoColor=white" alt="merged" />
@@ -60,9 +61,7 @@ I'm a **Software Developer at AGSuite Technologies** who builds **LLM-powered pr
       <br /><br />
       <b><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></b><br />
       <a href="https://github.com/BerriAI/litellm/pull/45767">#45767</a> · Anthropic requests with adaptive thinking no longer fail on rejected sampling params<br />
-      <a href="https://github.com/BerriAI/litellm/pull/38885">#38885</a> · Web-search follow-up calls keep the model's provider prefix<br />
-      <a href="https://github.com/BerriAI/litellm/pull/38879">#38879</a> · Vector store registries no longer share one list<br />
-      <a href="https://github.com/BerriAI/litellm/pull/38504">#38504</a> · Streaming cost is added only when <code>include_usage</code> is requested
+      <a href="https://github.com/BerriAI/litellm/pull/38885">#38885</a> · Web-search follow-up calls keep the model's provider prefix
     </td>
   </tr>
 </table>
@@ -111,7 +110,7 @@ I'm a **Software Developer at AGSuite Technologies** who builds **LLM-powered pr
     </td>
     <td width="50%" valign="top">
       <h3>🧠 <a href="https://github.com/msdianprince-7/langgraph-learnings">LangGraph Learnings</a></h3>
-      <p>12 hands-on topics, from parallel and conditional workflows to human-in-the-loop, subgraphs and long-term memory in Postgres. Includes a Streamlit chatbot with streaming, tools, <b>MCP</b>, <b>RAG over PDFs</b> and <b>LangSmith</b> tracing.</p>
+      <p>12 hands-on topics, from parallel and conditional workflows to human-in-the-loop, subgraphs and long-term memory in Postgres, plus theory notes on Pregel super-steps, streaming, time travel and multi-agent patterns. Includes a Streamlit chatbot with streaming, tools, <b>MCP</b>, <b>RAG over PDFs</b> and <b>LangSmith</b> tracing.</p>
       <p>
         <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain" />
         <img src="https://img.shields.io/badge/MCP-000?style=flat-square" />
