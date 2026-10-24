@@ -64,7 +64,8 @@ I'm a **Software Developer at AGSuite Technologies** who builds **LLM-powered pr
       <a href="https://github.com/BerriAI/litellm/pull/45767">#45767</a> · Anthropic requests with adaptive thinking no longer fail on rejected sampling params<br />
       <a href="https://github.com/BerriAI/litellm/pull/38885">#38885</a> · Web-search follow-up calls keep the model's provider prefix<br />
       <a href="https://github.com/BerriAI/litellm/pull/47083">#47083</a> · Access groups reject requests that send both model names and model IDs<br />
-      <a href="https://github.com/BerriAI/litellm/pull/47084">#47084</a> · Terraform tags read their model budgets back and keep the proxy budget
+      <a href="https://github.com/BerriAI/litellm/pull/47084">#47084</a> · Terraform tags read their model budgets back and keep the proxy budget<br />
+      <a href="https://github.com/BerriAI/litellm/pull/48180">#48180</a> · New models on JSON-defined providers keep their tools instead of losing them silently
     </td>
   </tr>
 </table>
