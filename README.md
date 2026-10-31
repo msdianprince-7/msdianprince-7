@@ -44,7 +44,8 @@ I'm a **Software Developer at AGSuite Technologies** who builds **LLM-powered pr
       <b><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></b> <sub>⭐ 60k+</sub><br />
       <a href="https://github.com/BerriAI/litellm/pull/38729">#38729</a> · Explicit prompt-cache breakpoints for GPT-5.6+ on Bedrock Mantle<br />
       <a href="https://github.com/BerriAI/litellm/pull/38879">#38879</a> · Vector store registries no longer share one list<br />
-      <a href="https://github.com/BerriAI/litellm/pull/47260">#47260</a> · Bedrock batch jobs reach a configured control-plane endpoint
+      <a href="https://github.com/BerriAI/litellm/pull/47260">#47260</a> · Bedrock batch jobs reach a configured control-plane endpoint<br />
+      <a href="https://github.com/BerriAI/litellm/pull/38885">#38885</a> · Web-search follow-up calls keep the model's provider prefix
     </td>
     <td width="33%" valign="top">
       <img src="https://img.shields.io/badge/merged-8250df?style=flat-square&logo=githubactions&logoColor=white" alt="merged" />
@@ -62,7 +63,6 @@ I'm a **Software Developer at AGSuite Technologies** who builds **LLM-powered pr
       <br /><br />
       <b><a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></b><br />
       <a href="https://github.com/BerriAI/litellm/pull/45767">#45767</a> · Anthropic requests with adaptive thinking no longer fail on rejected sampling params<br />
-      <a href="https://github.com/BerriAI/litellm/pull/38885">#38885</a> · Web-search follow-up calls keep the model's provider prefix<br />
       <a href="https://github.com/BerriAI/litellm/pull/47083">#47083</a> · Access groups reject requests that send both model names and model IDs<br />
       <a href="https://github.com/BerriAI/litellm/pull/47084">#47084</a> · Terraform tags read their model budgets back and keep the proxy budget<br />
       <a href="https://github.com/BerriAI/litellm/pull/48180">#48180</a> · New models on JSON-defined providers keep their tools instead of losing them silently
